@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Gorjeta</title>
+  <style>
+    body { font-family: Arial; padding: 20px; max-width: 400px; margin: auto; }
+    input, select, button { margin-top: 10px; width: 100%; padding: 8px; }
+    .resultado { margin-top: 20px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Calculadora de Gorjeta</h2>
+  <label>Valor da conta (R$):</label>
+  <input type="number" id="valor" step="0.01" min="0">
+
+  <label>Avalie nosso atendimento (1 a 5):</label>
+  <select id="avaliacao">
+    <option value="">Selecione</option>
+    <option value="1">1 - Péssimo</option>
+    <option value="2">2 - Ruim</option>
+    <option value="3">3 - Ok</option>
+    <option value="4">4 - Bom</option>
+    <option value="5">5 - Excelente</option>
+  </select>
+
+  <button onclick="calcular()">Calcular Total</button>
+
+  <div class="resultado" id="resultado"></div>
+
+  <script>
+    async function calcular() {
+      const valor = document.getElementById('valor').value;
+      const avaliacao = document.getElementById('avaliacao').value;
+
+      if (!valor || !avaliacao) {
+        alert('Preencha todos os campos!');
+        return;
+      }
+
+      try {
+        const res = await fetch('http://localhost:5000/calcular', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ valor, avaliacao })
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+          document.getElementById('resultado').innerText =
+            `${data.mensagem}\nTotal a pagar: R$ ${data.total.toFixed(2)}`;
+        } else {
+          document.getElementById('resultado').innerText = data.erro;
+        }
+      } catch (err) {
+        document.getElementById('resultado').innerText = 'Erro ao conectar com o servidor.';
+      }
+    }
+  </script>
+</body>
+</html>
