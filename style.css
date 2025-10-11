@@ -1,23 +1,59 @@
-button{
-  border-radius: 15px;
-  background-color: red;
+select{
+    color: greenyellow;
+    background-color: green;
 }
-@media (max-width: 600px) {
-  .container {
+body{
+    background-color: greenyellow;
+    
+}
+button{
+    color: greenyellow;
+    background-color: green;
+    border-radius: 40px;
     padding: 20px;
-    width: 90%;
+    transform: translate(5px, 20px); /* X = 150px, Y = 150px */
+}
+.valor{
+    color: green;
+}
+
+h2{
+    background-color: green;
+    padding: 40px;
+    font-size: 200%;
+    border-radius: 10px 0 20px 0;
+    width: 70%;
+}
+
+.imagem-movida {
+  transform: translate(16px, -600px); /* X = 150px, Y = 150px */
+}
+
+  img{
+    height: 140px;
+    border-radius: 5%;
   }
 
-  img {
-    width: 150px;
-    height: 150px;
-  }
+    .container {
+      text-align: center;
+      background-color: rgb(139, 219, 18);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      height: 500px;
+      transform: translate(0px,-150px); /* X = 150px, Y = 150px */
+    }
 
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
+.foto1{
+    transform: translate(500px, 800px) rotate(10deg);
+    border: solid 
+}
+.foto2{
+    transform: translate(-300px, 600px) rotate(-10deg);
+    border: solid;
+}
+.foto3{
+    transform: translate(-600px, 400px) rotate( -20deg); 
+    border: solid;
 }
