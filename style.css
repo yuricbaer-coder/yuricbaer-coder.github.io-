@@ -1,0 +1,13 @@
+select{
+    color: greenyellow;
+    background-color: green;
+}
+body{
+    background-color: greenyellow;
+}
+button{
+    color: green;
+}
+.valor{
+    color: green;
+}
