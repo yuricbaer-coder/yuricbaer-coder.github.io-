@@ -1,13 +1,23 @@
-select{
-    color: greenyellow;
-    background-color: green;
-}
-body{
-    background-color: greenyellow;
-}
 button{
-    color: green;
+  border-radius: 15px;
+  background-color: red;
 }
-.valor{
-    color: green;
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
 }
