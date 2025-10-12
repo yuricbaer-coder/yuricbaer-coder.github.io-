@@ -1,4 +1,4 @@
-# 👨🏻‍💻 <h1>Yuri Cipriani Baer<\h1>
+# 👨🏻‍💻 Yuri Cipriani Baer
 
 **`Desenvolvedor FullStack`**
 
