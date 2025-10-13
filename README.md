@@ -6,10 +6,10 @@ olá!!! eu sou o Yuri tenho 12 anos e meu foco é o full stack
 
 📖atualmente estou estudando java script, html e css
 
-🐍tenho conhecimento basico de python 
+🐍tenho conhecimento basico de python
 
-🍿Estou montando alguns projetos tipo: uma calculadora em java script, html e css,também Projeto que consome
-dados de filmes usando JavaScript e Flask nome: APIs de filmes
+🍿Estou montando alguns projetos tipo: uma calculadora em java script, html e css, também um projeto de site de audio book e TaskFlow — Gerenciador de Tarefas com Autenticação
+Um aplicativo web para gerenciamento de tarefas com login, cadastro, criação de tarefas, edição, exclusão e filtro por status. Ideal para equipes ou uso pessoal
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuricbaer-coder&theme=vue-dark)](https://github.com/yuricbaer-coder/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuricbaer-coder&theme=vue-dark)](https://github.com/yuricbaer-coder/github-readme-stats)
