@@ -11,8 +11,8 @@ olá!!! eu sou o Yuri tenho 12 anos e meu foco é o full stack
 🍿Estou montando alguns projetos tipo: uma calculadora em java script, html e css,também Projeto que consome
 dados de filmes usando JavaScript e Flask nome: APIs de filmes
 
-![yuricbaer-coder's Stats](https://github-readme-stats.vercel.app/api?username=yuricbaer-coder&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![yuricbaer-coder's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yuricbaer-coder&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yuricbaer-coder&theme=vue-dark)](https://github.com/yuricbaer-coder/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuricbaer-coder&theme=vue-dark)](https://github.com/yuricbaer-coder/github-readme-stats)
 ### 🌐 linguagens
 
 <div style="display: inline_block"><br>
@@ -24,4 +24,3 @@ dados de filmes usando JavaScript e Flask nome: APIs de filmes
 
 </div>
 ---
-
