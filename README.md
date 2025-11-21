@@ -2,7 +2,7 @@
 
 **`Desenvolvedor FullStack`**
 
-olá!!! eu sou o Yuri tenho 12 anos e meu foco é o full stack
+olá!!! eu sou o Yuri tenho 13 anos e meu foco é o full stack
 
 📖atualmente estou estudando java script, html e css
 
